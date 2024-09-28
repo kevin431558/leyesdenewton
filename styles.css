@@ -48,6 +48,19 @@ main {
     border-bottom: 2px solid #ddd;
     padding-bottom: 10px;
     margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.law h2 .more-info a {
+    color: #8B0000;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.law h2 .more-info a:hover {
+    text-decoration: underline;
 }
 
 .law img {
